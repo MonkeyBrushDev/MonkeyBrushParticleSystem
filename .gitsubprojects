@@ -1,0 +1,4 @@
+# -*- mode: cmake -*-
+#git_subproject(tinyxml2 https://github.com/leethomason/tinyxml2.git fc05f63)
+#git_subproject(bullet https://github.com/bulletphysics/bullet3.git 5b789ed)
+git_subproject( mb https://github.com/MonkeyBrushDev/MonkeyBrushCpp.git master )
