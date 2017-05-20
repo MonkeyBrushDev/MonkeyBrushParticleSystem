@@ -1,0 +1,12 @@
+include_directories(
+  ${PROJECT_BINARY_DIR}/include
+  ${PROJECT_SOURCE_DIR}
+  ${CMAKE_CURRENT_BINARY_DIR}
+)
+
+set( MB_PARTICLESYSTEMEXAMPLEPARTICLES_HEADERS )
+set( MB_PARTICLESYSTEMEXAMPLEPARTICLES_SOURCES exampleParticles.cpp )
+set( MB_PARTICLESYSTEMEXAMPLEPARTICLES_LINK_LIBRARIES
+  mb
+)
+common_application( mbParticleSystemExampleParticles )

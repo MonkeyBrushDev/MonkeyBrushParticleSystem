@@ -31,4 +31,4 @@ set( MB_PARTICLESYSTEM_LINK_LIBRARIES
   mb
 )
 
-common_library( mb_particle_system )
+common_library( mb_particlesystem )

@@ -37,7 +37,7 @@ list ( APPEND MB_PARTICLESYSTEM_DEPENDENT_LIBRARIES mb )
 
 common_find_package_post( )
 
-add_subdirectory( mb_particle_system )
+add_subdirectory( mb_particlesystem )
 
 set(DOXYGEN_MAINPAGE_MD ${PROJECT_SOURCE_DIR}/README.md)
 set(DOXYGEN_EXTRA_INPUT ${DOXYGEN_MAINPAGE_MD})

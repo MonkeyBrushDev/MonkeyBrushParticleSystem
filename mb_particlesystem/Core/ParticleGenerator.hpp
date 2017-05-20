@@ -1,6 +1,8 @@
 #ifndef __MB_PS_PARTICLE_GENERATOR__
 #define __MB_PS_PARTICLE_GENERATOR__
 
+#include "ParticleInfo.hpp"
+
 namespace mb
 {
   namespace ps

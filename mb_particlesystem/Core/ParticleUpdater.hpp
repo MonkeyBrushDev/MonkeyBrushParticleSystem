@@ -1,6 +1,8 @@
 #ifndef __MB_PS_PARTICLE_UPDATER__
 #define __MB_PS_PARTICLE_UPDATER__
 
+#include "ParticleInfo.hpp"
+
 namespace mb
 {
   namespace ps
